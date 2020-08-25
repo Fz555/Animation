@@ -1,0 +1,21 @@
+body {
+ font-family: Roboto;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ min-height: 80vh;
+}
+
+.button {
+ width: 200px;
+ padding: 20px;
+ background-color: lightblue;
+ text-align: center;
+ border-radius: 5px;
+ color: red;
+ transition: transform 1s ease;
+}
+
+.button:hover {
+  transform: rotate(360deg);
+}
